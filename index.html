@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Персональный сайт</title>
+    <link rel="stylesheet" href="assets/styles/indexstyle.css">
+    <script src="assets/Scripts/tabs.js""></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="particles-js">
+        <div class="main">
+
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'Me')" id="defaultOpen">Обо мне</button>
+                <button class="tablinks" onclick="openCity(event, 'Contacts')">Контакты</button>
+                <button class="tablinks" onclick="openCity(event, 'Connection')">Обратная связь</button>
+            </div>
+
+            <div id="Me" class="tabcontent">
+                <!-- <h2>Обо мне</h2> -->
+                <div class="content">
+                    <img src="assets/images/im.jpg" alt="Человек">
+                        <p>Белобородов Дмитрий Александрович, учусь в ГАПОУ СО "Ирбитский Мотоциклетный Техникум" 310 группа, 3 курс. 
+                            Моя специальность: Информационные системы (по отраслям)</p>
+                </div>
+            </div>
+
+            <div id="Contacts" class="tabcontent">
+                <!-- <h2>Контакты</h2> -->
+                <div class="content2">
+                    <p>e-mail: dmitryhronoss@mail.ru</p>
+                    <p>phone: +7 996 179 38 12</p>
+                </div>
+            </div>
+
+            <div id="Connection" class="tabcontent">
+                <!-- <h2>Обратная связь</h2> -->
+                <div class="content3">
+
+                    <script src="https://yastatic.net/s3/frontend/forms/_/embed.js"></script><iframe
+        src="https://forms.yandex.ru/cloud/64174faf2530c21e34f33a41/?iframe=1" frameborder="0"
+        name="ya-form-64174faf2530c21e34f33a41" width="500" height="500"></iframe>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="particles.min.js">
+    </script>
+
+    <script>
+        particlesJS.load('particles-js', 'assets/particles.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
+    <div class="footer">
+        <p>2023 год</p>
+    </div>
+
+
+    </body>
+
+</html>
